@@ -1,0 +1,27 @@
+{
+  "name": "siso-agent-core",
+  "version": "1.0.0",
+  "description": "Core agent orchestration logic - Parallel Agent 2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "vitest": "^1.0.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "keywords": ["agent", "orchestration", "coordination", "siso"],
+  "type": "module"
+}
