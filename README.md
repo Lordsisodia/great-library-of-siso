@@ -37,13 +37,14 @@ Transform scattered research into focused, actionable intelligence that ships pr
 
 *Gold Standard: Phase-based development (90% success rate improvement)*
 
-### 🤖 **[SISO-IDE-Agent-Wrapper/](./SISO-IDE-Agent-Wrapper/)**
-**Code Wrapper & Agent Systems Research**
-- **Projects-List/**: IDE agents, autonomous coding tools, wrapper technologies
-- **Playground/**: Agent prototypes and integration testing
-- **Planning/**: 6-month implementation roadmap and strategic direction
+### 🤖 **[SISO-Legacy-Wrapper/](./SISO-Legacy-Wrapper/)**
+**Revolutionary AI Agent Wrapper System**
+- **Projects-List/**: IDE agents, Claude Code, Cursor, autonomous coding solutions
+- **Playground/**: SANDBOX method, parallel development, production workflows
+- **Planning/**: Strategic roadmap for multi-agent coordination systems
+- **Implementation/**: POC validation and proof-of-concept development
 
-*Focus: IDE integration patterns and autonomous coding capabilities*
+*Mission: Local AI agent wrapper that uses Claude Code or any AI agents to code, build, and research*
 
 ### 🌐 **[Browser-Automation/](./Browser-Automation/)**
 **Web Automation Tools & Frameworks**
@@ -67,7 +68,7 @@ cd MCP && find . -name "README.md"
 ### **Current Priorities**
 1. **MCP Zen Server**: Context revival testing and evaluation
 2. **Community Patterns**: Phase-based development implementation
-3. **Agent Wrappers**: IDE integration research and prototyping
+3. **SISO Legacy Wrapper**: Local AI agent system for coding, building, and research
 4. **Browser Automation**: Framework evaluation and selection
 
 ## 📊 **Research Statistics**
