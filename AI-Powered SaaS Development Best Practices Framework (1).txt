@@ -1,0 +1,124 @@
+﻿Lovable Quick Reference Guide
+Prompt Integrations
+Lovable offers a wide range of built-in integrations that you can invoke directly in prompts to add advanced features to your app (AI processing, automation, UI enhancements, etc.) (Prompts & Integrations - Lovable Documentation). Below is a list of available integrations by category, with each integration’s function and example uses:
+AI & LLMs
+* OpenAI’s model – Ideal for summarization, analysis, and content generation. Fast and reliable for general AI tasks (Prompts & Integrations - Lovable Documentation).
+* Anthropic’s latest model – Excels in complex reasoning and deep analysis (Prompts & Integrations - Lovable Documentation).
+* Google’s latest model – Strong in logical reasoning and long-context processing (Prompts & Integrations - Lovable Documentation).
+* Groq – The fastest AI model in Lovable (powered by Llama 3) for quick responses (Prompts & Integrations - Lovable Documentation).
+* Cohere Command R+ – Scalable large-language model designed for business applications (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Build a grammar-enhancing writing assistant using [AI model]” (Prompts & Integrations - Lovable Documentation) or “Create a chatbot for customer support using [AI model]” (Prompts & Integrations - Lovable Documentation) (where [AI model] can be any of the above models).
+Images & Vision
+* GPT-4 Vision – GPT-4 with vision capabilities for image understanding and analysis (Prompts & Integrations - Lovable Documentation).
+* Stable Diffusion – Text-to-image generation model for creating images from descriptions (Prompts & Integrations - Lovable Documentation).
+* DALL-E – OpenAI’s image generation model for producing images from text prompts (Prompts & Integrations - Lovable Documentation).
+* Pexels API – Search and fetch free stock photos/videos by keyword (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* Exa – Retrieve academic content or AI research papers (AI-powered web search for research) (Prompts & Integrations - Lovable Documentation).
+* Eva – Fetch the latest tech news articles (AI-powered news search) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Find stock photos of specific objects using Pexels” (Prompts & Integrations - Lovable Documentation), “Retrieve the latest AI research papers with Exa” (Prompts & Integrations - Lovable Documentation), or “Get the latest tech news articles with Eva” (Prompts & Integrations - Lovable Documentation).
+UI Components
+* 21st.dev – Open-source registry of React/Tailwind components (inspired by shadcn/ui). Provides ready-to-use Tailwind-styled UI components (e.g. buttons, accordions, footers) installable via a single command for quickly building polished UIs (Prompts & Integrations - Lovable Documentation) (Tailwind CSS Integrations in 2025).
+* Chakra UI – A popular React component library focusing on accessible, modular UI elements. Comes with pre-built components (forms, modals, layouts, etc.) and theming – use it to build accessible React apps quickly without custom CSS (Prompts & Integrations - Lovable Documentation) (Chakra UI - A simple, modular and accessible component library that gives you the building blocks you need to build your React applications. - Chakra UI).
+* shadcn/ui – An open-source collection of beautifully designed, copy-paste Tailwind components built on Radix UI. Highly customizable and accessible; use it to rapidly develop consistent UIs with Tailwind while retaining full control over styling (Prompts & Integrations - Lovable Documentation) (Tailwind CSS Integrations in 2025).
+   * Example use: “Add a form using [Chakra UI] components” (Prompts & Integrations - Lovable Documentation) or “Create a responsive navbar using [shadcn/ui] components” (Prompts & Integrations - Lovable Documentation) to let Lovable generate UI code with those libraries.
+Audio Processing
+* Eleven Labs (TTS) – High-quality text-to-speech API for generating natural-sounding voices from text (Prompts & Integrations - Lovable Documentation).
+* Speech-to-Text – Speech recognition integration for converting spoken audio into text (e.g. transcribe audio files) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Convert uploaded audio files to text using audio transcription” (Prompts & Integrations - Lovable Documentation) or “Read content aloud using text-to-speech” (Prompts & Integrations - Lovable Documentation) to add voice features.
+Maps
+* Mapbox – Mapping service to display interactive maps and visualize geolocation data (Prompts & Integrations - Lovable Documentation).
+* Google Maps – Google’s maps API for location search, map imagery, and directions (Prompts & Integrations - Lovable Documentation).
+* Google Places (Business data) – Access Google’s business listings and place details (e.g. find restaurants or businesses) (Prompts & Integrations - Lovable Documentation).
+* Google Place Autocomplete – Suggest addresses and places as the user types (for forms or search bars) (Prompts & Integrations - Lovable Documentation).
+* Weather API – Retrieve real-time weather information by location (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Display store locations on a map with [Mapbox]” (Prompts & Integrations - Lovable Documentation), “Add address auto-completion using [Google Place Autocomplete]” (Prompts & Integrations - Lovable Documentation), or “Show real-time weather updates using [Weather API]” (Prompts & Integrations - Lovable Documentation).
+Documents
+* PDF Generation – Programmatically create and download PDF files from data (e.g. generate reports or forms) (Prompts & Integrations - Lovable Documentation).
+* PDF Parser – Extract text from PDFs (including scanned PDFs) for search or analysis (Prompts & Integrations - Lovable Documentation).
+* Document Scanner – Scan and process images of documents (OCR) to extract text or data (Prompts & Integrations - Lovable Documentation).
+* File Conversion – Convert files between formats (e.g. PDF to images, or vice versa) (Prompts & Integrations - Lovable Documentation).
+* QR Code Generator – Create QR codes for links or data (useful for app sharing, business info, etc.) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Generate invoices as PDFs using [PDF Generation]” (Prompts & Integrations - Lovable Documentation), “Extract text from scanned documents with [PDF Parser]” (Prompts & Integrations - Lovable Documentation), or “Make a URL shortener with QR codes using [QR Code]” (Prompts & Integrations - Lovable Documentation).
+Media & Entertainment
+* TMDb (Movies & TV) – Integration with The Movie Database API to retrieve movie and TV show data (search titles, get details, recommendations) (Prompts & Integrations - Lovable Documentation).
+* “Movies and TV Series” – (Alternate interface to movie/TV data) Allows searching and tracking of TV shows and movies (uses TMDb under the hood) (Prompts & Integrations - Lovable Documentation).
+* Sports Data – Retrieve sports statistics and scores (fantasy sports or live data integration) (Prompts & Integrations - Lovable Documentation).
+* Book Search – Search for books and get details (e.g. via Google Books or similar) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Build a movie recommendation system using [TMDb]” (Prompts & Integrations - Lovable Documentation), “Create a fantasy [Sport] prediction app” (Prompts & Integrations - Lovable Documentation), or “Build a book discovery app with [Book Search]” (Prompts & Integrations - Lovable Documentation).
+Web Tools
+* Google Search – Perform web searches and retrieve top search results programmatically (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* Web Scraper – Scrape content from websites to extract information (HTML, text, etc.) (Prompts & Integrations - Lovable Documentation).
+* Google Translate – Translate text between languages on the fly using Google’s translation API (Prompts & Integrations - Lovable Documentation).
+* Google Image Search – Search the web for images by query and retrieve image results (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Scrape top search results from [Google Search] using [Web Scraper]” (Prompts & Integrations - Lovable Documentation), or “Translate text dynamically using [Google Translate]” (Prompts & Integrations - Lovable Documentation), or “Find images using [Google Image Search]” (Prompts & Integrations - Lovable Documentation).
+Business
+* US Sales Tax Calculator – Calculate accurate sales tax for purchases based on location (useful for e-commerce checkout totals) (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* SEO Keyword Research – Analyze search terms for SEO, helping with content planning and search ranking insights (Prompts & Integrations - Lovable Documentation).
+* Charts – Generate and display data visualizations (e.g. line graphs or bar charts) for analytics dashboards (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* GitHub (Auth) – Integrate GitHub for authentication or user signup (allows users to sign in with GitHub) (Prompts & Integrations - Lovable Documentation).
+* Domain Inspector – Check domain information and WHOIS data (for building domain lookup or verification tools) (Prompts & Integrations - Lovable Documentation).
+* OpenAI Moderation – Detect harmful or offensive content using OpenAI’s content moderation API (for chat or content filtering) (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* Line Messaging – Send chat messages or notifications via the Line messaging platform (e.g. order confirmations, alerts) (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* Resend – Email sending service to deliver transactional emails or newsletters (modern email API for apps) (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+* NeverBounce – Email verification service to validate email addresses in real-time (helps maintain clean email lists) (Prompts & Integrations - Lovable Documentation) (Prompts & Integrations - Lovable Documentation).
+   * Example use: “Calculate order totals with [US Sales Tax Calculator]” (Prompts & Integrations - Lovable Documentation), “Send order confirmations with [Resend]” (Prompts & Integrations - Lovable Documentation), or “Validate user emails using [NeverBounce] before signup” (Prompts & Integrations - Lovable Documentation).
+________________
+
+
+Integrations Overview (Lovable Integration Introduction)
+Lovable supports many integrations that extend its functionality across coding, data, and third-party services (Integrations - Lovable Documentation). The lists below include all official and third-party integrations from the Lovable docs, along with a brief description of each integration’s purpose or main use and relevant links:
+Native Integrations (Official Lovable Integrations)
+* GitHub Integration – Connect and sync Lovable projects with GitHub for seamless version control and collaboration (Integrations - Lovable Documentation). (Allows you to push commits and have Lovable pull updates from GitHub.)
+* Supabase Integration – Add authentication and persistent data storage to your Lovable app with Supabase (database + auth) (Integrations - Lovable Documentation).
+* Stripe & Payments – Enable payment processing in your app via Stripe, to handle purchases, subscriptions, etc. (Integrations - Lovable Documentation).
+* Custom Domain – Set up a custom domain for your Lovable app (using providers like Netlify or Vercel) (Integrations - Lovable Documentation).
+Verified Integrations (Optimized to work with Lovable)
+* Builder.io – Turn Figma designs into full-stack applications within Lovable (visual builder integration) (Integrations - Lovable Documentation).
+* Runware – Generate images from text prompts in your app (text-to-image generation integration) (Integrations - Lovable Documentation).
+* OpenAI – Add AI capabilities using OpenAI’s powerful language models (for GPT-3.5/GPT-4 features in your app) (Integrations - Lovable Documentation).
+* Anthropic – Integrate Anthropic’s Claude models for advanced AI capabilities and reasoning in your app (Integrations - Lovable Documentation).
+* Three.js – Include interactive 3D graphics in your app (render 3D models, scenes, animations in the browser) (Integrations - Lovable Documentation).
+* Resend – Enable email sending capabilities using Resend’s modern email API (for transactional emails or newsletters) (Integrations - Lovable Documentation).
+* D3.js – Create dynamic, interactive data visualizations (charts, graphs) in your Lovable application (Integrations - Lovable Documentation).
+* Highcharts – Add professional interactive charts and graphs to your app (rich charting library integration) (Integrations - Lovable Documentation).
+* p5.js – Integrate creative coding and interactive graphics (great for visualizations and sketches) (Integrations - Lovable Documentation) (examples available for p5.js usage (Integrations - Lovable Documentation)).
+* Replicate – Run and fine-tune open-source AI models via Replicate’s API (use community AI models in your app) (Integrations - Lovable Documentation).
+* Stability AI – Leverage Stability AI’s models (e.g. Stable Diffusion for image generation, etc.) across various modalities (Integrations - Lovable Documentation).
+* Rive – Embed interactive vector animations created with Rive in your app (for rich animated UI/UX) (Integrations - Lovable Documentation).
+* Together.ai – Conversational AI for well-being: Improve mental health and well-being through connected conversations (chatbot/agent integration) (Integrations - Lovable Documentation).
+* PostHog – Open-source product analytics integration to capture user behavior, session replays, A/B testing, and more (Integrations - Lovable Documentation).
+Unverified Integrations (Third-party APIs that can be used with Lovable)
+(These are external services that work with Lovable via API calls, but may require more custom setup or context in prompts.)
+* Mapbox – Maps and geolocation API. Powers navigation for people, packages, and vehicles everywhere (interactive maps, geocoding) (Integrations - Lovable Documentation).
+* Firecrawl – Web crawling tool. Turn websites into LLM-ready data (crawl and index web content for AI use) (Integrations - Lovable Documentation).
+* Perplexity – AI Q&A service. Add powerful AI answer capabilities to your app (uses Perplexity’s answer engine) (Integrations - Lovable Documentation).
+* Zapier – Automation platform. Connect different web apps and automate workflows (integrate hundreds of services via Zapier) (Integrations - Lovable Documentation).
+* GoJS – Diagramming library. Add interactive flowcharts and diagrams, useful for visualizing workflows and processes (Integrations - Lovable Documentation).
+* Transformers.js (HF) – Hugging Face’s Transformers in JS. Run machine learning models in-browser without a server (client-side AI) (Integrations - Lovable Documentation).
+* xAI (Scheduler) – AI scheduling assistant. Automate meeting scheduling and calendar management with AI (Integrations - Lovable Documentation).
+* Twilio – Communication API. Make/receive phone calls and send/receive SMS text messages from your app (Integrations - Lovable Documentation).
+* Make (Integromat) – Visual workflow builder. Automate tasks and connect apps through a drag-and-drop interface (no-code workflows) (Integrations - Lovable Documentation).
+* Google Workspace – Google’s productivity suite. Use Google Workspace APIs (Docs, Sheets, Gmail, etc.) for integration into your app (Integrations - Lovable Documentation).
+* Lemon Squeezy – E-commerce platform. Simplify selling digital products (payment processing, subscriptions, licensing) (Integrations - Lovable Documentation).
+* Serper.dev – Google Search API. Embed Google Search results in your app (programmatic search queries) (Integrations - Lovable Documentation).
+* Notion – Collaboration platform. Use Notion’s API for notes, wikis, databases – task management and content organization (Integrations - Lovable Documentation).
+* Mailgun – Email service. Send, receive, and track emails via Mailgun API (for transactional email delivery) (Integrations - Lovable Documentation).
+* Calendly – Scheduling tool. Automate meeting scheduling and appointments via Calendly’s API (Integrations - Lovable Documentation).
+* SendGrid – Email delivery service. Send transactional or marketing emails at scale and track deliverability (Integrations - Lovable Documentation).
+* TinyMCE – WYSIWYG text editor. Embed a rich text editor in your app for content editing (HTML editing with a UI) (Integrations - Lovable Documentation).
+* bannerbear – Media generation API. Automate generation of images and videos (e.g. social media visuals) from templates (Integrations - Lovable Documentation).
+* Square – Commerce platform. Accept payments and manage sales (point-of-sale, payments API, inventory) in your application (Integrations - Lovable Documentation).
+* HeyGen – AI video generator. Generate videos with AI (e.g. talking avatar or video content from text) (Integrations - Lovable Documentation).
+* GetLago – Open-source metering and usage‑based billing platform (track customer usage and bill accordingly) (Integrations - Lovable Documentation).
+________________
+
+
+UI/UX Element Providers (Tailwind CSS & Component Libraries)
+For accessible design and faster front-end development, Lovable recommends using established UI component libraries rather than building UI from scratch (Prompts & Integrations - Lovable Documentation). Below is a list of UI/UX element providers mentioned, with what they specialize in and when to use them:
+* Tailwind UI (Official) – The official Tailwind CSS component kit by Tailwind Labs. Provides a comprehensive set of professionally designed, fully responsive UI components (navbars, forms, tables, etc.) (Top 15 Tailwind Component Libraries for Web Development). Use it when you need polished, ready-made layouts and elements and are willing to use a premium (paid) library for speed and consistency in design (Top 15 Tailwind Component Libraries for Web Development).
+* DaisyUI – A Tailwind CSS component library that extends Tailwind with pre-styled components and semantic classes. Offers dozens of components (buttons, cards, modal dialogs, etc.) and built-in themes (including dark mode), reducing the need to write utility classes (Tailwind CSS Integrations in 2025). Use it when you want to rapidly build interfaces with Tailwind using simple component class names and easily switch themes (DaisyUI works as a plugin, with no extra JS required) (Tailwind CSS Integrations in 2025) (Tailwind CSS Integrations in 2025).
+* Flowbite – An open-source library of Tailwind CSS UI components focused on interactive elements. Includes over 50+ components (alerts, dropdowns, navbars, modals, etc.) and comes with pre-built designs that are fully responsive and accessible (Tailwind CSS Integrations in 2025). It also provides a Figma UI kit and supports multiple frameworks (React, Vue, Angular, etc.) for flexibility (Tailwind CSS Integrations in 2025). Use it when you need a wide range of ready-made Tailwind components with interactive functionality (and design assets for prototyping) to quickly augment your app’s UI.
+* shadcn/ui – A collection of open-source, unstyled React components built with Radix UI and Tailwind CSS. Provides beautifully designed yet highly customizable components (forms, menus, tables, etc.) that you copy into your codebase (Tailwind CSS Integrations in 2025). Use it when you want full control over styling with Tailwind but a head-start on accessible, well-structured components. Shadcn/ui’s approach is great for building a design system: you get default Tailwind-styled components which you can theme as needed, ensuring consistency and accessibility out of the box (Tailwind CSS Integrations in 2025).
+* 21st.dev – An open-source “npm for design” registry of React + Tailwind components. Offers a huge range of community-contributed UI components and sections (from basic UI elements like buttons and alerts to complete sections like hero banners, forms, footers, etc.), installable via a single command (uses the shadcn UI framework under the hood) (Tailwind CSS Integrations in 2025). Use it when you want to browse and include pre-built Tailwind component implementations for faster development – it’s especially useful for finding specific UI sections or elements that adhere to Tailwind best practices, saving you from coding UI from scratch (Tailwind CSS Integrations in 2025).
+* Chakra UI – A popular component library for React (not Tailwind-based) that emphasizes simplicity and accessibility. Provides a set of themable, ready-to-use components (inputs, buttons, dialogs, etc.) with built-in styling and ARIA accessibility (Chakra UI - A simple, modular and accessible component library that gives you the building blocks you need to build your React applications. - Chakra UI). Use it when you prefer a more traditional React UI toolkit or need out-of-the-box accessible components without configuring Tailwind. Chakra UI is ideal for rapidly building UI in any React project where you want consistent, themeable components that just work (especially useful alongside Lovable if you’re focusing on functionality and want UI elements readily available) (Prompts & Integrations - Lovable Documentation) (Chakra UI - A simple, modular and accessible component library that gives you the building blocks you need to build your React applications. - Chakra UI).
+Each of these providers can significantly speed up UI/UX development. By choosing a library that fits your project’s needs (e.g. Tailwind-first vs. general React, design customization vs. ready-made themes), you ensure your Lovable app’s interface is both beautiful and user-friendly without reinventing the wheel.
