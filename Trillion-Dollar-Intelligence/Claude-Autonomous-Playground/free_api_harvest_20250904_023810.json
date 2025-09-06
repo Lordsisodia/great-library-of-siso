@@ -1,0 +1,63 @@
+{
+  "harvest_timestamp": "2025-09-04T02:38:10.111669",
+  "summary": {
+    "working_apis": 0,
+    "potential_apis": 3,
+    "discovered_apis": 5,
+    "total_tokens_per_sec": 0,
+    "compound_intelligence_ready": false
+  },
+  "working_apis": {},
+  "potential_apis": {
+    "together": {
+      "status": "requires_key",
+      "name": "Together AI",
+      "message": "API key needed - potential free tier available"
+    },
+    "replicate": {
+      "status": "requires_key",
+      "name": "Replicate",
+      "message": "API key needed - potential free tier available"
+    },
+    "huggingface": {
+      "status": "requires_key",
+      "name": "HuggingFace Inference API",
+      "message": "API key needed - potential free tier available"
+    }
+  },
+  "discovered_apis": {
+    "cohere": {
+      "accessible": true,
+      "status_code": 401,
+      "endpoint": "https://api.cohere.ai/v1/generate",
+      "discovery_note": "Endpoint accessible, may offer free tier"
+    },
+    "anthropic_claude": {
+      "accessible": true,
+      "status_code": 405,
+      "endpoint": "https://api.anthropic.com/v1/messages",
+      "discovery_note": "Endpoint accessible, may offer free tier"
+    },
+    "perplexity": {
+      "accessible": true,
+      "status_code": 401,
+      "endpoint": "https://api.perplexity.ai/chat/completions",
+      "discovery_note": "Endpoint accessible, may offer free tier"
+    },
+    "mistral": {
+      "accessible": true,
+      "status_code": 401,
+      "endpoint": "https://api.mistral.ai/v1/chat/completions",
+      "discovery_note": "Endpoint accessible, may offer free tier"
+    },
+    "fireworks": {
+      "accessible": true,
+      "status_code": 405,
+      "endpoint": "https://api.fireworks.ai/inference/v1/chat/completions",
+      "discovery_note": "Endpoint accessible, may offer free tier"
+    }
+  },
+  "optimization_recommendations": [
+    "\ud83d\udca1 COST OPTIMIZATION: 100% free compute - unlimited experimentation possible"
+  ]
+}

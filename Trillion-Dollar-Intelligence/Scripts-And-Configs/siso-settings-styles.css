@@ -1,0 +1,443 @@
+/* SISO IDE Settings Page Styles */
+/* Based on Claudia GUI design system with SISO branding */
+
+/* Custom CSS Variables for SISO Theme */
+:root {
+  /* SISO Brand Colors */
+  --siso-primary: #3b82f6;
+  --siso-primary-hover: #2563eb;
+  --siso-secondary: #64748b;
+  --siso-accent: #8b5cf6;
+  
+  /* Semantic Colors */
+  --siso-success: #10b981;
+  --siso-warning: #f59e0b;
+  --siso-error: #ef4444;
+  --siso-info: #3b82f6;
+  
+  /* Neutral Colors */
+  --siso-gray-50: #f8fafc;
+  --siso-gray-100: #f1f5f9;
+  --siso-gray-200: #e2e8f0;
+  --siso-gray-300: #cbd5e1;
+  --siso-gray-400: #94a3b8;
+  --siso-gray-500: #64748b;
+  --siso-gray-600: #475569;
+  --siso-gray-700: #334155;
+  --siso-gray-800: #1e293b;
+  --siso-gray-900: #0f172a;
+  
+  /* Spacing */
+  --siso-spacing-xs: 0.25rem;
+  --siso-spacing-sm: 0.5rem;
+  --siso-spacing-md: 1rem;
+  --siso-spacing-lg: 1.5rem;
+  --siso-spacing-xl: 2rem;
+  --siso-spacing-2xl: 3rem;
+  
+  /* Typography */
+  --siso-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --siso-font-mono: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', monospace;
+  
+  /* Shadows */
+  --siso-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --siso-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --siso-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  
+  /* Border Radius */
+  --siso-radius-sm: 0.25rem;
+  --siso-radius-md: 0.375rem;
+  --siso-radius-lg: 0.5rem;
+  --siso-radius-xl: 0.75rem;
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+  --siso-bg-primary: var(--siso-gray-900);
+  --siso-bg-secondary: var(--siso-gray-800);
+  --siso-bg-tertiary: var(--siso-gray-700);
+  --siso-text-primary: var(--siso-gray-50);
+  --siso-text-secondary: var(--siso-gray-300);
+  --siso-text-muted: var(--siso-gray-400);
+  --siso-border-color: var(--siso-gray-700);
+}
+
+/* Light Mode Variables */
+[data-theme="light"] {
+  --siso-bg-primary: var(--siso-gray-50);
+  --siso-bg-secondary: white;
+  --siso-bg-tertiary: var(--siso-gray-100);
+  --siso-text-primary: var(--siso-gray-900);
+  --siso-text-secondary: var(--siso-gray-700);
+  --siso-text-muted: var(--siso-gray-500);
+  --siso-border-color: var(--siso-gray-200);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--siso-font-family);
+  background-color: var(--siso-bg-primary);
+  color: var(--siso-text-primary);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Component Styles */
+.siso-card {
+  background-color: var(--siso-bg-secondary);
+  border: 1px solid var(--siso-border-color);
+  border-radius: var(--siso-radius-lg);
+  box-shadow: var(--siso-shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.siso-card:hover {
+  box-shadow: var(--siso-shadow-md);
+}
+
+.siso-card-header {
+  padding: var(--siso-spacing-lg);
+  border-bottom: 1px solid var(--siso-border-color);
+}
+
+.siso-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--siso-text-primary);
+  margin: 0;
+}
+
+.siso-card-content {
+  padding: var(--siso-spacing-lg);
+}
+
+.siso-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--siso-radius-md);
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.siso-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--siso-primary);
+}
+
+.siso-button--primary {
+  background-color: var(--siso-primary);
+  color: white;
+  padding: var(--siso-spacing-sm) var(--siso-spacing-md);
+}
+
+.siso-button--primary:hover {
+  background-color: var(--siso-primary-hover);
+}
+
+.siso-button--outline {
+  background-color: var(--siso-bg-secondary);
+  color: var(--siso-text-primary);
+  border: 1px solid var(--siso-border-color);
+  padding: var(--siso-spacing-sm) var(--siso-spacing-md);
+}
+
+.siso-button--outline:hover {
+  background-color: var(--siso-bg-tertiary);
+}
+
+.siso-input {
+  width: 100%;
+  padding: var(--siso-spacing-sm) 0.75rem;
+  border: 1px solid var(--siso-border-color);
+  border-radius: var(--siso-radius-md);
+  background-color: var(--siso-bg-secondary);
+  color: var(--siso-text-primary);
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+
+.siso-input:focus {
+  outline: none;
+  border-color: var(--siso-primary);
+  box-shadow: 0 0 0 1px var(--siso-primary);
+}
+
+.siso-input::placeholder {
+  color: var(--siso-text-muted);
+}
+
+.siso-switch {
+  position: relative;
+  display: inline-flex;
+  width: 2.75rem;
+  height: 1.5rem;
+  align-items: center;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.siso-switch[data-checked="true"] {
+  background-color: var(--siso-primary);
+}
+
+.siso-switch[data-checked="false"] {
+  background-color: var(--siso-gray-300);
+}
+
+.siso-switch__thumb {
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  transform: translateX(0.25rem);
+}
+
+.siso-switch[data-checked="true"] .siso-switch__thumb {
+  transform: translateX(1.5rem);
+}
+
+.siso-tabs {
+  width: 100%;
+}
+
+.siso-tabs__list {
+  display: inline-flex;
+  height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--siso-radius-md);
+  background-color: var(--siso-bg-tertiary);
+  padding: var(--siso-spacing-xs);
+  margin-bottom: var(--siso-spacing-lg);
+}
+
+.siso-tabs__trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: var(--siso-radius-sm);
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: var(--siso-text-secondary);
+}
+
+.siso-tabs__trigger[data-active="true"] {
+  background-color: var(--siso-bg-secondary);
+  color: var(--siso-text-primary);
+  box-shadow: var(--siso-shadow-sm);
+}
+
+.siso-tabs__trigger:hover {
+  color: var(--siso-text-primary);
+}
+
+.siso-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--siso-text-primary);
+  display: block;
+  margin-bottom: var(--siso-spacing-xs);
+}
+
+.siso-textarea {
+  width: 100%;
+  padding: var(--siso-spacing-sm) 0.75rem;
+  border: 1px solid var(--siso-border-color);
+  border-radius: var(--siso-radius-md);
+  background-color: var(--siso-bg-secondary);
+  color: var(--siso-text-primary);
+  font-size: 0.875rem;
+  font-family: var(--siso-font-mono);
+  resize: vertical;
+  transition: all 0.2s ease;
+}
+
+.siso-textarea:focus {
+  outline: none;
+  border-color: var(--siso-primary);
+  box-shadow: 0 0 0 1px var(--siso-primary);
+}
+
+/* Animation Classes */
+.siso-fade-in {
+  opacity: 0;
+  animation: siso-fadeIn 0.3s ease forwards;
+}
+
+@keyframes siso-fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.siso-slide-up {
+  transform: translateY(10px);
+  opacity: 0;
+  animation: siso-slideUp 0.3s ease forwards;
+}
+
+@keyframes siso-slideUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Utility Classes */
+.siso-grid {
+  display: grid;
+  gap: var(--siso-spacing-lg);
+}
+
+.siso-grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.siso-space-y-4 > * + * {
+  margin-top: var(--siso-spacing-md);
+}
+
+.siso-space-y-6 > * + * {
+  margin-top: var(--siso-spacing-lg);
+}
+
+.siso-flex {
+  display: flex;
+}
+
+.siso-flex--between {
+  justify-content: space-between;
+}
+
+.siso-flex--center {
+  align-items: center;
+}
+
+.siso-text-sm {
+  font-size: 0.875rem;
+}
+
+.siso-text-muted {
+  color: var(--siso-text-muted);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .siso-grid--cols-2 {
+    grid-template-columns: 1fr;
+  }
+  
+  .siso-card-content {
+    padding: var(--siso-spacing-md);
+  }
+  
+  .siso-card-header {
+    padding: var(--siso-spacing-md);
+  }
+  
+  .siso-tabs__list {
+    flex-wrap: wrap;
+    height: auto;
+    gap: var(--siso-spacing-xs);
+  }
+}
+
+/* SISO IDE Specific Styles */
+.siso-settings-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--siso-bg-primary) 0%, var(--siso-bg-tertiary) 100%);
+  padding: var(--siso-spacing-lg);
+}
+
+.siso-settings-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.siso-settings-header {
+  margin-bottom: var(--siso-spacing-2xl);
+  text-align: center;
+}
+
+.siso-settings-header h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: var(--siso-spacing-sm);
+  background: linear-gradient(135deg, var(--siso-primary), var(--siso-accent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.siso-settings-header p {
+  color: var(--siso-text-secondary);
+  font-size: 1.125rem;
+}
+
+.siso-settings-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--siso-spacing-md);
+  margin-top: var(--siso-spacing-xl);
+}
+
+/* Status Indicators */
+.siso-status-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-right: var(--siso-spacing-sm);
+}
+
+.siso-status-dot--success {
+  background-color: var(--siso-success);
+}
+
+.siso-status-dot--warning {
+  background-color: var(--siso-warning);
+}
+
+.siso-status-dot--error {
+  background-color: var(--siso-error);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--siso-bg-tertiary);
+  border-radius: var(--siso-radius-md);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--siso-gray-400);
+  border-radius: var(--siso-radius-md);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--siso-gray-500);
+}

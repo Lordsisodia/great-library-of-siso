@@ -1,0 +1,50 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "package_name": "smithery-ai/server-sequential-thinking",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking"
+      ]
+    },
+    "filesystem": {
+      "package_name": "modelcontextprotocol/server-filesystem",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/shaansisodia/Desktop",
+        "/Users/shaansisodia/Documents",
+        "/Users/shaansisodia/Downloads"
+      ]
+    },
+    "playwright": {
+      "package_name": "playwright/mcp",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp",
+        "--headless"
+      ]
+    },
+    "fetch": {
+      "package_name": "modelcontextprotocol/server-fetch",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ]
+    },
+    "brave-search": {
+      "package_name": "modelcontextprotocol/server-brave-search",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ]
+    }
+  }
+}

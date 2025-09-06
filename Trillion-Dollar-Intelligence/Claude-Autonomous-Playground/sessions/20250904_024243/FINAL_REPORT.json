@@ -1,0 +1,175 @@
+{
+  "session_summary": {
+    "start_time": "2025-09-04T02:42:43.413456",
+    "end_time": "2025-09-04T02:48:43.685849",
+    "duration": "0:06:00.272398",
+    "session_directory": "sessions/20250904_024243"
+  },
+  "outputs_generated": {
+    "total": 10,
+    "details": [
+      {
+        "timestamp": "2025-09-04T02:42:51.665107",
+        "type": "documentation",
+        "title": "Python Best Practices Guide",
+        "file": "sessions/20250904_024243/outputs/python_best_practices_guide.md",
+        "word_count": 156,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:42:53.665448",
+        "type": "code_generation",
+        "project": "Simple REST API with FastAPI",
+        "file": "sessions/20250904_024243/prototypes/simple_rest_api_with_fastapi.py",
+        "lines_of_code": 59,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:42:59.667015",
+        "type": "documentation",
+        "title": "FastAPI Development Patterns",
+        "file": "sessions/20250904_024243/outputs/fastapi_development_patterns.md",
+        "word_count": 156,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:03.667437",
+        "type": "code_generation",
+        "project": "Data processing pipeline",
+        "file": "sessions/20250904_024243/prototypes/data_processing_pipeline.py",
+        "lines_of_code": 89,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:07.668035",
+        "type": "documentation",
+        "title": "Data Processing Workflows",
+        "file": "sessions/20250904_024243/outputs/data_processing_workflows.md",
+        "word_count": 152,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:13.668026",
+        "type": "code_generation",
+        "project": "Web scraper with error handling",
+        "file": "sessions/20250904_024243/prototypes/web_scraper_with_error_handling.py",
+        "lines_of_code": 29,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:15.668960",
+        "type": "documentation",
+        "title": "Local Development Setup",
+        "file": "sessions/20250904_024243/outputs/local_development_setup.md",
+        "word_count": 134,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:23.669658",
+        "type": "code_generation",
+        "project": "Local file organization tool",
+        "file": "sessions/20250904_024243/prototypes/local_file_organization_tool.py",
+        "lines_of_code": 29,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:23.669841",
+        "type": "documentation",
+        "title": "Performance Optimization Tips",
+        "file": "sessions/20250904_024243/outputs/performance_optimization_tips.md",
+        "word_count": 179,
+        "status": "completed"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:33.670474",
+        "type": "code_generation",
+        "project": "Performance monitoring script",
+        "file": "sessions/20250904_024243/prototypes/performance_monitoring_script.py",
+        "lines_of_code": 29,
+        "status": "completed"
+      }
+    ]
+  },
+  "tasks_completed": {
+    "total": 5,
+    "details": [
+      {
+        "timestamp": "2025-09-04T02:42:58.665398",
+        "task": "Create File Organization Tool",
+        "status": "completed",
+        "output_location": "sessions/20250904_024243/prototypes/"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:13.666887",
+        "task": "Create API Response Monitor",
+        "status": "completed",
+        "output_location": "sessions/20250904_024243/prototypes/"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:28.668601",
+        "task": "Create Log Analyzer",
+        "status": "completed",
+        "output_location": "sessions/20250904_024243/prototypes/"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:43.670746",
+        "task": "Create Config Manager",
+        "status": "completed",
+        "output_location": "sessions/20250904_024243/prototypes/"
+      },
+      {
+        "timestamp": "2025-09-04T02:43:58.673499",
+        "task": "Create Task Scheduler",
+        "status": "completed",
+        "output_location": "sessions/20250904_024243/prototypes/"
+      }
+    ]
+  },
+  "learning_insights": [
+    {
+      "timestamp": "2025-09-04T02:44:43.667034",
+      "metrics": {
+        "outputs_generated": 10,
+        "tasks_completed": 5,
+        "session_duration": 120.252452,
+        "learning_entries": 0
+      },
+      "observations": [],
+      "improvements": []
+    },
+    {
+      "timestamp": "2025-09-04T02:46:43.671145",
+      "metrics": {
+        "outputs_generated": 10,
+        "tasks_completed": 5,
+        "session_duration": 240.256305,
+        "learning_entries": 1
+      },
+      "observations": [],
+      "improvements": []
+    },
+    {
+      "timestamp": "2025-09-04T02:48:43.679737",
+      "metrics": {
+        "outputs_generated": 10,
+        "tasks_completed": 5,
+        "session_duration": 360.264167,
+        "learning_entries": 2
+      },
+      "observations": [],
+      "improvements": []
+    }
+  ],
+  "working_apis": {},
+  "system_performance": {
+    "outputs_per_minute": 1.6654053487951268,
+    "tasks_per_minute": 0.8327026582183764
+  },
+  "evidence_of_work": [
+    "Generated 5 working code files",
+    "Created 5 documentation files",
+    "Built 0 working prototypes",
+    "Produced 235 lines of code",
+    "Wrote 777 words of documentation"
+  ]
+}
