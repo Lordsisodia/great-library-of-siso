@@ -1,0 +1,49 @@
+{
+  "name": "app-building-framework-tools",
+  "version": "1.0.0",
+  "description": "Development tools for AI-driven app building including YouTube video fetcher and analysis",
+  "main": "youtube-video-fetcher.js",
+  "scripts": {
+    "fetch-channel": "node youtube-video-fetcher.js",
+    "setup": "npm install && echo '✅ Setup complete! Set YOUTUBE_API_KEY environment variable'",
+    "test": "node test-youtube-fetcher.js",
+    "extract-transcripts": "python3 transcript-extractor.py",
+    "analyze-videos": "node video-insights-analyzer.js",
+    "batch-process": "bash batch-process-channels.sh"
+  },
+  "bin": {
+    "fetch-youtube-channel": "./youtube-video-fetcher.js"
+  },
+  "keywords": [
+    "youtube",
+    "video",
+    "transcript",
+    "ai",
+    "analysis",
+    "app-building",
+    "development-tools"
+  ],
+  "author": "SISO App Building Framework",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "THE-GREAT-LIBRARY-OF-SISO/App-Building-Framework"
+  },
+  "config": {
+    "youtube-api": {
+      "quotaLimit": 10000,
+      "requestDelay": 200,
+      "maxRetries": 3
+    }
+  }
+}
