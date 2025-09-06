@@ -23,7 +23,7 @@ class FreeAPIHarvester:
             'groq': {
                 'name': 'Groq (Ultra Fast)',
                 'endpoint': 'https://api.groq.com/openai/v1/chat/completions',
-                'key': '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',
+                'key': 'YOUR_GROQ_API_KEY_HERE',
                 'models': ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant'],
                 'rate_limit': '30 RPM',
                 'tokens_per_sec': 500,

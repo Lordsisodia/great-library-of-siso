@@ -113,7 +113,7 @@ claude mcp add-json "serena" '{"command":"uvx","args":["--from","git+https://git
 
 # Load Zen MCP (Multi-Model Orchestration)  
 echo "   🧠 Loading Zen MCP (Multi-Model AI Orchestration)..."
-claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","GROQ_API_KEY":"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","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr"}}' >/dev/null 2>&1
+claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","GROQ_API_KEY":"YOUR_GROQ_API_KEY_HERE","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr"}}' >/dev/null 2>&1
 
 # Load Supabase MCP (Database Operations)
 echo "   🗄️ Loading Supabase MCP (Database Operations)..."

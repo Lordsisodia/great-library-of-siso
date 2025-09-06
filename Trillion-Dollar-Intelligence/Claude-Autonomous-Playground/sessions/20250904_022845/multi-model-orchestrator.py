@@ -21,7 +21,7 @@ class MultiModelOrchestrator:
     def __init__(self):
         self.models = {
             'groq': {
-                'api_key': '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',
+                'api_key': 'YOUR_GROQ_API_KEY_HERE',
                 'endpoint': 'https://api.groq.com/openai/v1/chat/completions',
                 'model': 'llama-3.3-70b-versatile',
                 'specialization': 'speed',

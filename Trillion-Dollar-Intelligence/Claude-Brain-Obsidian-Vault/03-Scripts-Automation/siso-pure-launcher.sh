@@ -59,7 +59,7 @@ echo ""
 
 # Load MCP servers quietly (skip if already exist)
 claude mcp add-json "serena" '{"command":"uvx","args":["--from","git+https://github.com/oraios/serena","serena-mcp-server"]}' >/dev/null 2>&1 || true
-claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","GROQ_API_KEY":"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","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr"}}' >/dev/null 2>&1 || true
+claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","GROQ_API_KEY":"YOUR_GROQ_API_KEY_HERE","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr"}}' >/dev/null 2>&1 || true
 claude mcp add-json "supabase" '{"command":"npx","args":["-y","@supabase/mcp-server-supabase@latest","--project-ref=avdgyrepwrvsvwgxrccr"],"env":{"SUPABASE_ACCESS_TOKEN":"sbp_46f04e75f8bba39917efda341bbf260ac60d3c8d"}}' >/dev/null 2>&1 || true
 echo "✅ MCP servers initialized"
 

@@ -9,7 +9,7 @@
 
 ### Phase 1: FREE COMPUTE HARVEST (Hours 1-2)
 **Goal**: Gather ALL available free compute and API resources
-- ✅ Groq API (500+ tokens/sec): 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
+- ✅ Groq API (500+ tokens/sec): YOUR_GROQ_API_KEY_HERE
 - ✅ Cerebras API (ultra fast): csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr
 - ✅ Gemini Pro: AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM
 - 🔄 Together AI free tier setup

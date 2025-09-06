@@ -24,14 +24,14 @@ class SmartWatchAICompanion:
         # Multi-model orchestration (using existing free APIs)
         self.models = {
             'groq_speed': {
-                'api_key': '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',
+                'api_key': 'YOUR_GROQ_API_KEY_HERE',
                 'endpoint': 'https://api.groq.com/openai/v1/chat/completions',
                 'model': 'llama-3.1-8b-instant',  # Ultra fast for real-time
                 'specialization': 'instant_response',
                 'use_for': ['quick_questions', 'reminders', 'calculations']
             },
             'groq_quality': {
-                'api_key': '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',
+                'api_key': 'YOUR_GROQ_API_KEY_HERE',
                 'endpoint': 'https://api.groq.com/openai/v1/chat/completions',
                 'model': 'llama-3.3-70b-versatile',
                 'specialization': 'quality_analysis',
