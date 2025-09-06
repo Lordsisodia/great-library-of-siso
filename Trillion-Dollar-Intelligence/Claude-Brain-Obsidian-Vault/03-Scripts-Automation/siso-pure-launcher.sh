@@ -59,7 +59,7 @@ echo ""
 
 # Load MCP servers quietly (skip if already exist)
 claude mcp add-json "serena" '{"command":"uvx","args":["--from","git+https://github.com/oraios/serena","serena-mcp-server"]}' >/dev/null 2>&1 || true
-claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","OPENROUTER_API_KEY":"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","GROQ_API_KEY":"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","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr","LOG_LEVEL":"debug","CONVERSATION_TIMEOUT_HOURS":"24","DEFAULT_MODEL":"pro"}}' >/dev/null 2>&1 || true
+claude mcp add-json "zen-mcp" '{"command":"uvx","args":["--from","git+https://github.com/BeehiveInnovations/zen-mcp-server.git","zen-mcp-server"],"env":{"GEMINI_API_KEY":"AIzaSyDnuBN9ZzW3HnH_-3RAlOZu3GUs9zTz6HM","OPENROUTER_API_KEY":"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","GROQ_API_KEY":"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","CEREBRAS_API_KEY":"csk-3k6trr428thrppejwexnep65kh8m3nccmx5p92np3x8rr2wr","LOG_LEVEL":"debug","CONVERSATION_TIMEOUT_HOURS":"24","DEFAULT_MODEL":"gpt-free"}}' >/dev/null 2>&1 || true
 claude mcp add-json "supabase" '{"command":"npx","args":["-y","@supabase/mcp-server-supabase@latest","--project-ref=avdgyrepwrvsvwgxrccr"],"env":{"SUPABASE_ACCESS_TOKEN":"sbp_46f04e75f8bba39917efda341bbf260ac60d3c8d"}}' >/dev/null 2>&1 || true
 echo "✅ MCP servers initialized"
 
